@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.demo.virtuousone.dao.UserInfoMapper">
+    <resultMap id="BaseResultMap" type="com.demo.virtuousone.po.UserInfoPO">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="userName" property="username" jdbcType="VARCHAR"/>
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+        <result column="qq" property="qq" jdbcType="VARCHAR"/>
+        <result column="createTime" property="createTime" jdbcType="TIMESTAMP"/>
+        <result column="updateTime" property="updateTime" jdbcType="TIMESTAMP"/>
+
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, userName,email,qq,createTime,updateTime
+    </sql>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"/>
+        from user_info
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete from user_info
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+
+    <select id="getUserInfoList" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM user_info
+        <where>
+            <if test="v.userName != null and v.userName !=''">
+                userName LIKE "%"#{v.userName}"%"
+            </if>
+        </where>
+        ORDER BY createTime DESC limit #{v.start},#{v.length}
+    </select>
+
+    <select id="getUserInfoListCount" resultType="integer">
+        SELECT count(1) FROM user_info
+        <where>
+            <if test="v.userName != null and v.userName !=''">
+                userName LIKE "%"#{v.userName}"%"
+            </if>
+        </where>
+    </select>
+
+
+    <!--<select id="getUserInfo1" resultType="com.nanhaidetianzhi.vo.response.GetUserInfo1">-->
+    <!--SELECT-->
+    <!--id  as id,-->
+    <!--userName as name        -->
+    <!--FROM user_info-->
+    <!--<where>-->
+    <!--<if test="v.userName != null and v.userName !=''">-->
+    <!--userName LIKE "%"#{v.userName}"%"-->
+    <!--</if>-->
+    <!--</where>-->
+    <!--ORDER BY createTime DESC limit #{v.start},#{v.length}-->
+    <!--</select>-->
+
+
+</mapper>
