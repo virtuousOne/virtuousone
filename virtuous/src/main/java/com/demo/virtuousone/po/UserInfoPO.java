@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * @Author: 吴宸煊
  * Date: Created in  2019/1/12/0012
- * Description: 用户实体，与数据库交互
+ * Description: 用户实体，与数据库交互 ---
  */
 public class UserInfoPO implements Serializable {
     private static final long serialVersionUID = -763618247875550322L;
@@ -21,6 +21,7 @@ public class UserInfoPO implements Serializable {
     private Date createTime;
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date updateTime;
+
 
     public UserInfoPO(UserInfoDTO dto) {
         this.setId(dto.getId());
