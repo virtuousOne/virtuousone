@@ -42,7 +42,7 @@
     <appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">
         <smtpHost>smtp.qq.com</smtpHost>
         <username>2812927266@qq.com</username>
-        <password>######</password>
+        <password>kjjgporeysxzdhfe</password>
         <smtpPort>25</smtpPort>
         <to>2812927266@qq.com</to>
         <from>2812927266@qq.com</from>
