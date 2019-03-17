@@ -22,7 +22,7 @@ public class ScheduleDemo {
     //@Scheduled(fixedDelay=ONE_Minute) 每隔多久执行一次
     @Scheduled(fixedDelay = ONE_Minute)
     public void fixedDelayJob() {
-        logger.info(CommonUtil.getTime() + (" >>fixedDelay执行...."));
+        // logger.info(CommonUtil.getTime() + (" >>fixedDelay执行...."));
     }
 
     //0 0 3 * * ?     每天3点执行
