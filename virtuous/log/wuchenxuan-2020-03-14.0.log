@@ -1,0 +1,441 @@
+[ INFO ] [2020-03-14 21:22:52] com.demo.virtuousone.VirtuousoneApplication [50] - Starting VirtuousoneApplication on WIN-3F1N4LHCLOU with PID 11852 (J:\virtuousone\virtuous\target\classes started by Administrator in J:\virtuousone\virtuous)
+[ INFO ] [2020-03-14 21:22:52] com.demo.virtuousone.VirtuousoneApplication [675] - No active profile set, falling back to default profiles: default
+[ INFO ] [2020-03-14 21:22:53] org.springframework.data.repository.config.RepositoryConfigurationDelegate [244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [2020-03-14 21:22:53] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[ INFO ] [2020-03-14 21:22:53] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 70ms. Found 0 repository interfaces.
+[ INFO ] [2020-03-14 21:22:53] org.springframework.data.repository.config.RepositoryConfigurationDelegate [244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [2020-03-14 21:22:53] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[ INFO ] [2020-03-14 21:22:53] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+[ INFO ] [2020-03-14 21:22:53] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$c986d18b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [2020-03-14 21:22:53] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$31b135d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [2020-03-14 21:22:54] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "fileSizeThreshold" : 0,
+  "location" : "",
+  "maxFileSize" : 20971520,
+  "maxRequestSize" : 104857600
+}
+[ INFO ] [2020-03-14 21:22:54] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 49ms
+[ WARN ] [2020-03-14 21:22:54] io.undertow.websockets.jsr [68] - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[ INFO ] [2020-03-14 21:22:54] io.undertow.servlet [364] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2020-03-14 21:22:54] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2259 ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "hello",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "hello"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 14ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "order",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "order"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "directQueue",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "directQueue"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 8ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "topicQueue",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "topicQueue"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "radioQueueFirst",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "radioQueueFirst"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 4ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "radioQueueSecond",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "radioQueueSecond"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "delayed" : false,
+  "durable" : true,
+  "ignoreDeclarationExceptions" : false,
+  "internal" : false,
+  "name" : "directExchange",
+  "type" : "direct"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "delayed" : false,
+  "durable" : true,
+  "ignoreDeclarationExceptions" : false,
+  "internal" : false,
+  "name" : "topicExchange",
+  "type" : "topic"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "delayed" : false,
+  "durable" : true,
+  "ignoreDeclarationExceptions" : false,
+  "internal" : false,
+  "name" : "radioExchangeFirst",
+  "type" : "fanout"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "directQueue",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "directExchange",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : "sms1"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 6ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "topicQueue",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "topicExchange",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : "sms2"
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "radioQueueFirst",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "radioExchangeFirst",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : ""
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "radioQueueSecond",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "radioExchangeFirst",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : ""
+}
+[ INFO ] [2020-03-14 21:22:55] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:22:55] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2020-03-14 21:22:56] org.elasticsearch.plugins.PluginsService [190] - no modules loaded
+[ INFO ] [2020-03-14 21:22:56] org.elasticsearch.plugins.PluginsService [193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+[ INFO ] [2020-03-14 21:22:56] org.elasticsearch.plugins.PluginsService [193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+[ INFO ] [2020-03-14 21:22:56] org.elasticsearch.plugins.PluginsService [193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+[ INFO ] [2020-03-14 21:22:56] org.elasticsearch.plugins.PluginsService [193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+[ INFO ] [2020-03-14 21:22:56] org.elasticsearch.plugins.PluginsService [193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[ WARN ] [2020-03-14 21:22:57] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [554] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'elasticsearchClient' defined in class path resource [org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'elasticsearchClient' threw exception; nested exception is java.lang.IllegalStateException: availableProcessors is already set to [4], rejecting [4]
+[ INFO ] [2020-03-14 21:22:57] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2020-03-14 21:22:57] com.alibaba.druid.pool.DruidDataSource [2003] - {dataSource-0} closing ...
+[ INFO ] [2020-03-14 21:22:57] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [142] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ ERROR] [2020-03-14 21:22:57] org.springframework.boot.SpringApplication [858] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'elasticsearchClient' defined in class path resource [org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'elasticsearchClient' threw exception; nested exception is java.lang.IllegalStateException: availableProcessors is already set to [4], rejecting [4]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.demo.virtuousone.VirtuousoneApplication.main(VirtuousoneApplication.java:14)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.elasticsearch.client.transport.TransportClient]: Factory method 'elasticsearchClient' threw exception; nested exception is java.lang.IllegalStateException: availableProcessors is already set to [4], rejecting [4]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 19 common frames omitted
+Caused by: java.lang.IllegalStateException: availableProcessors is already set to [4], rejecting [4]
+	at io.netty.util.NettyRuntime$AvailableProcessorsHolder.setAvailableProcessors(NettyRuntime.java:51)
+	at io.netty.util.NettyRuntime.setAvailableProcessors(NettyRuntime.java:87)
+	at org.elasticsearch.transport.netty4.Netty4Utils.setAvailableProcessors(Netty4Utils.java:83)
+	at org.elasticsearch.transport.netty4.Netty4Transport.<init>(Netty4Transport.java:112)
+	at org.elasticsearch.transport.Netty4Plugin.lambda$getTransports$0(Netty4Plugin.java:86)
+	at org.elasticsearch.client.transport.TransportClient.buildTemplate(TransportClient.java:189)
+	at org.elasticsearch.client.transport.TransportClient.<init>(TransportClient.java:283)
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:128)
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:114)
+	at org.elasticsearch.transport.client.PreBuiltTransportClient.<init>(PreBuiltTransportClient.java:104)
+	at org.springframework.data.elasticsearch.client.TransportClientFactoryBean.buildClient(TransportClientFactoryBean.java:85)
+	at org.springframework.data.elasticsearch.client.TransportClientFactoryBean.afterPropertiesSet(TransportClientFactoryBean.java:80)
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration.elasticsearchClient(ElasticsearchAutoConfiguration.java:59)
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$ce043495.CGLIB$elasticsearchClient$0(<generated>)
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$ce043495$$FastClassBySpringCGLIB$$88277849.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration$$EnhancerBySpringCGLIB$$ce043495.elasticsearchClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+[ INFO ] [2020-03-14 21:24:00] com.demo.virtuousone.VirtuousoneApplication [50] - Starting VirtuousoneApplication on WIN-3F1N4LHCLOU with PID 9440 (J:\virtuousone\virtuous\target\classes started by Administrator in J:\virtuousone\virtuous)
+[ INFO ] [2020-03-14 21:24:00] com.demo.virtuousone.VirtuousoneApplication [675] - No active profile set, falling back to default profiles: default
+[ INFO ] [2020-03-14 21:24:01] org.springframework.data.repository.config.RepositoryConfigurationDelegate [244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [2020-03-14 21:24:01] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[ INFO ] [2020-03-14 21:24:01] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 88ms. Found 0 repository interfaces.
+[ INFO ] [2020-03-14 21:24:01] org.springframework.data.repository.config.RepositoryConfigurationDelegate [244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] [2020-03-14 21:24:01] org.springframework.data.repository.config.RepositoryConfigurationDelegate [126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[ INFO ] [2020-03-14 21:24:01] org.springframework.data.repository.config.RepositoryConfigurationDelegate [182] - Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+[ INFO ] [2020-03-14 21:24:02] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$413730b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [2020-03-14 21:24:02] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7acb728a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] [2020-03-14 21:24:02] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "fileSizeThreshold" : 0,
+  "location" : "",
+  "maxFileSize" : 20971520,
+  "maxRequestSize" : 104857600
+}
+[ INFO ] [2020-03-14 21:24:02] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 72ms
+[ WARN ] [2020-03-14 21:24:03] io.undertow.websockets.jsr [68] - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+[ INFO ] [2020-03-14 21:24:03] io.undertow.servlet [364] - Initializing Spring embedded WebApplicationContext
+[ INFO ] [2020-03-14 21:24:03] org.springframework.web.context.ContextLoader [296] - Root WebApplicationContext: initialization completed in 2729 ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "hello",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "hello"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 20ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "order",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "order"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "directQueue",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "directQueue"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 9ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "topicQueue",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "topicQueue"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "radioQueueFirst",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "radioQueueFirst"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "actualName" : "radioQueueSecond",
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "durable" : true,
+  "exclusive" : false,
+  "ignoreDeclarationExceptions" : false,
+  "name" : "radioQueueSecond"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "delayed" : false,
+  "durable" : true,
+  "ignoreDeclarationExceptions" : false,
+  "internal" : false,
+  "name" : "directExchange",
+  "type" : "direct"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "delayed" : false,
+  "durable" : true,
+  "ignoreDeclarationExceptions" : false,
+  "internal" : false,
+  "name" : "topicExchange",
+  "type" : "topic"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "autoDelete" : false,
+  "declaringAdmins" : [ ],
+  "delayed" : false,
+  "durable" : true,
+  "ignoreDeclarationExceptions" : false,
+  "internal" : false,
+  "name" : "radioExchangeFirst",
+  "type" : "fanout"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "directQueue",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "directExchange",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : "sms1"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 7ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "topicQueue",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "topicExchange",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : "sms2"
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 3ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "radioQueueFirst",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "radioExchangeFirst",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : ""
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+{
+  "arguments" : { },
+  "declaringAdmins" : [ ],
+  "destination" : "radioQueueSecond",
+  "destinationQueue" : true,
+  "destinationType" : "QUEUE",
+  "exchange" : "radioExchangeFirst",
+  "ignoreDeclarationExceptions" : false,
+  "routingKey" : ""
+}
+[ INFO ] [2020-03-14 21:24:04] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:24:04] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [171] - Initializing ExecutorService 'applicationTaskExecutor'
+[ INFO ] [2020-03-14 21:24:06] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [171] - Initializing ExecutorService 'taskScheduler'
+[ INFO ] [2020-03-14 21:24:06] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [460] - Attempting to connect to: [47.101.11.232:5672]
+[ INFO ] [2020-03-14 21:24:06] org.springframework.amqp.rabbit.connection.CachingConnectionFactory [496] - Created new connection: rabbitConnectionFactory#5d71b500:0/SimpleConnection@69d021c1 [delegate=amqp://guest@47.101.11.232:5672/, localPort= 60153]
+[ INFO ] [2020-03-14 21:24:08] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+null
+[ INFO ] [2020-03-14 21:24:08] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 4ms
+[ INFO ] [2020-03-14 21:24:08] org.xnio [104] - XNIO version 3.3.8.Final
+[ INFO ] [2020-03-14 21:24:08] org.xnio.nio [55] - XNIO NIO Implementation Version 3.3.8.Final
+[ INFO ] [2020-03-14 21:24:08] org.springframework.boot.web.embedded.undertow.UndertowServletWebServer [148] - Undertow started on port(s) 10086 (http) with context path ''
+[ INFO ] [2020-03-14 21:24:08] com.demo.virtuousone.VirtuousoneApplication [59] - Started VirtuousoneApplication in 9.085 seconds (JVM running for 11.46)
+[ INFO ] [2020-03-14 21:40:48] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+null
+[ INFO ] [2020-03-14 21:40:48] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
+[ INFO ] [2020-03-14 21:57:28] com.demo.virtuousone.common.AopLogAspect [92] - RESPONSE: 
+null
+[ INFO ] [2020-03-14 21:57:28] com.demo.virtuousone.common.AopLogAspect [93] - SPEND TIME: 2ms
