@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * Date: Created in  2019/3/17/0017
  * Description:
  */
-@Component
+/*@Component
 @RabbitListener(queues = "hello")
 public class Recevier {
     @RabbitHandler
@@ -17,4 +17,4 @@ public class Recevier {
         System.out.println("receiver:" + hello);
     }
 
-}
+}*/

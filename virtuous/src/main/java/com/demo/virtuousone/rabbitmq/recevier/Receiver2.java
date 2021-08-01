@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
  * Date: Created in  2019/3/17/0017
  * Description:
  */
+/*
 @Component
 @RabbitListener(queues = "order")
 public class Receiver2 {
@@ -19,3 +20,4 @@ public class Receiver2 {
     }
 
 }
+*/
